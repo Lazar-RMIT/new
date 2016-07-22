@@ -1,0 +1,414 @@
+body{
+    background-image: url('img/background.jpg');
+    /*background-size: 100%;*/
+    color:#00386;
+    font-size: 87.5%;
+    font-family: Arial, 'Lucida Sans Unicode';
+    text-align: left;
+}
+ 
+a{
+    text-decoration: none; /*no undeline on links*/
+}
+ 
+ 
+a:link, a:visited {
+ 
+}
+ 
+a:hover, a:active{
+ 
+}
+ 
+ 
+.body{
+    margin: 0 auto;
+    width: 100%;
+    clear: both;/*  no floating elements*/
+}
+ 
+ 
+ 
+/*mainHeader*/
+ 
+.mainHeader{
+     
+    width: 100%;
+        background: linear-gradient(to top, #000000 0%, #222222 20%, #3c3c3c 20%, #e6e6e6 78%, #888888 100%);
+margin-bottom:40px;
+}
+ 
+.mainHeader h1{
+    color:  #707070 ;
+    width:30%;
+    float: left;
+    padding-left: 5%;
+    font-weight: 900;
+     
+ 
+     
+}
+ 
+.socialLinks {
+    width:35%;
+    float: right;
+    margin-top: 20px
+ 
+    
+  /*  padding-top: 20px;
+    padding-left: 5%;*/
+ 
+}
+ 
+ 
+.socialLinks a:hover,
+.socialLinks a:active,
+.socialLinks .active a:link,
+.socialLinks .active a:visited
+{
+    background-color: #ffb366;
+     
+ 
+}
+ 
+.socialLinks a:link, .socialLinks a:visited{
+    color: #FFF;
+    display: inline-block;
+    padding: 3px 3px;
+}
+ 
+ 
+.socialLinks a{
+    border-radius: 100px;
+    -moz-border-radius: 80px;
+    -webkit-border-radius: 80px;
+    background-color: #666;
+}
+ 
+ 
+.mainHeader nav {
+    background: linear-gradient(to top, #000000 0%, #222222 25%, #3c3c3c 51%, #393939 78%, #888888 100%);
+    height: 40px;
+    clear: left;
+     
+     
+ 
+}
+ 
+.mainHeader nav ul{
+    list-style: none;/*get rids of bullet points*/
+    margin: 0 auto;
+ 
+}
+ 
+.mainHeader nav ul li{
+    float: left;
+ 
+ 
+}
+ 
+.mainHeader nav a:link, .mainHeader nav a:visited{
+    color: #ffb366;
+    display: inline-block;
+    padding: 10px 25px;
+    height: 20px;
+}
+ 
+ 
+.mainHeader nav a:hover,
+.mainHeader nav a:active,
+.mainHeader nav .active a:link,
+.mainHeader nav .active a:visited
+{
+    background-color: #ffb366;
+    color: #666;
+ 
+}
+ 
+.mainHeader nav ul li a{
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+ 
+ 
+ 
+/*mainContent*/
+ 
+ 
+ 
+.mainBody{
+    width:20%;
+ 
+}
+.mainContent 
+{
+    line-height: 20px;
+}
+ 
+.content{
+    width: 70%;
+    float: left;
+ 
+}
+ 
+.topContent{
+    background-color: #e6e6e6;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    padding: 2% 5%;
+    margin: 20px 5% 0px 5%;
+    border-style: solid;
+    border-color:  #666;
+}
+ 
+.bottomContent{
+    background-color: #e6e6e6;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    padding: 2% 5%;
+    margin: 20px 5% 20px 5%;
+    border-style: solid;
+    border-color:  #666;
+     
+}
+ 
+/*sidebar*/
+ 
+ 
+.contentSidebar{
+ 
+    float: left;
+    width: 30%;
+}
+ 
+ 
+.top-sidebar{
+    background-color: #e6e6e6;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    padding: 2% 5%;
+    margin: 20px 5% 0px 5%;
+    border-style: solid;
+    border-color:  #666;
+     
+}
+ 
+ 
+.middle-sidebar{
+ 
+    background-color: #e6e6e6;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    padding: 2% 5%;
+    margin: 20px 5% 0px 5%;
+    border-style: solid;
+    border-color:  #666;
+ 
+ 
+ 
+}
+ 
+.bottom-sidebar{
+background-color: white;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    padding: 2% 5%;
+    margin: 20px 5% 20px 5%;
+    border-style: solid;
+    border-color:  #666;
+}
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+/*Footer*/
+ 
+.mainFooter{
+    width: 100%;
+    float: left;
+    margin-bottom: 10px;
+    background-color: #666;
+    margin-top:40px;
+ 
+ 
+}
+ 
+.mainFooter p{
+    width:90%;
+    margin: 2% auto;
+    color: #ffb366;
+}
+ 
+.mainFooter a:link, .mainFooter a:visited{
+    color: #ffb366;
+     
+     
+}
+ 
+.mainFooter a:hover,
+.mainFooter a:active,
+.mainFooter .active a:link,
+.mainFooter .active a:visited
+{
+    color: #e6ffcc;
+     
+ 
+}
+ 
+ 
+ 
+/*contact page css*/
+ 
+.contactForm
+{
+    background-color: #e6e6e6;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-style: solid;
+    border-color:  #666;
+    text-align: left;
+    padding: 40px 40px 40px 40px;
+    width:60%;
+    display: block;
+    margin: auto;
+ 
+}
+ 
+ 
+.contactForm h1,p,input,button,textarea{
+ 
+    margin: 0% 10% 0% 10%;
+}
+ 
+ 
+.submit {
+    background-color: grey;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin-top: 20px;
+}
+ 
+ 
+/*portfolio*/
+ 
+.mySlids{
+    width: 50%;
+}
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+@media only screen and (min-width:10px) and (max-width: 600px)
+{
+    .body{
+    width: 90%;
+    font-size: 95%;
+}
+.mainHeader{
+    background: none;
+}
+.mainHeader h1{
+    text-align: center;
+    width:90%;
+    float: none;
+    margin: 10px 0px 0px 0px;
+    }
+     
+.socialLinks{
+     
+    width:100%;
+    float: none;
+    text-align: center;
+    margin: 5px 0px 5px 0px;
+ 
+    }
+     
+.mainHeader nav {
+    background: #666;
+    height: 160px; /*4 times the hiegh*/
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+ 
+}
+ 
+.mainHeader nav ul{
+    padding-left: 0;
+ 
+}
+ 
+.mainHeader nav ul li{
+    width: 100%;
+    text-align: center;
+}
+ 
+.mainHeader nav a:link, .mainHeader nav a:visited{
+     
+    padding: 10px 25px;
+    display: block;
+    /*come back to assign heigh*/
+}
+ 
+ 
+ 
+.mainHeader nav ul li a{
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+ 
+ 
+.content{
+    width: 100%;
+    float: none;
+ 
+}
+.contentSidebar{
+ 
+    float: none;
+    width: 80%;
+}
+ 
+/*contents page*/
+.contactForm
+{
+ 
+    width:75%;
+ 
+ 
+}
+ 
+ 
+.contactForm h1,p,input,button{
+ 
+    margin: 0% 0% 0% 0%;
+}
+ 
+ 
+.contactForm button{
+    width: 50%;
+}
